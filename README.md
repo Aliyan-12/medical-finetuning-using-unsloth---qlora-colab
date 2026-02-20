@@ -1,4 +1,4 @@
-# Fine-tuning DeepSeek R1 with Unsloth
+# Fine-tuning DeepSeek R1 with QLoRA.
 
 This repository contains notebook to fine-tune **DeepSeek R1 8B** model using **Unsloth**. Unsloth allows for faster and more memory-efficient fine-tuning of LLMs.
 
