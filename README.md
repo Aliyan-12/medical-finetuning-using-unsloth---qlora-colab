@@ -1,4 +1,4 @@
-# Fine-tuning DeepSeek R1 with Unsloth
+# Fine-tuning DeepSeek R1 with QLoRA.
 
 This repository contains notebook to fine-tune **DeepSeek R1 8B** model using **Unsloth**. Unsloth allows for faster and more memory-efficient fine-tuning of LLMs.
 
@@ -30,12 +30,10 @@ The `notebooks/` directory contains the following workflows:
    ```
 3. Open one of the notebooks in the `notebooks/` directory and follow the steps.
 - **Prepare Secrets for notebook**:
-   HF_TOKEN - required for huggingface login
-   WANDB_TOKEN - required for WANDB_TOKEN (Optionally removed if u donot want the training charts).
+-   `HF_TOKEN` – Required for HuggingFace login.
+-   `WANDB_TOKEN` – Required for Weights & Biases (W&B) logging. Optional if you do not want training charts.
 
 - **Execute all runs and wait until training is complete**:
-   ![HuggingFace Tokens]https://huggingface.co/settings/tokens
-   ![WandB.ai API Keys]https://wandb.ai/settings
 
 ## Contributing
 
